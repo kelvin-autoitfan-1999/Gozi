@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="certs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="client.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="command.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="conf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="crhook.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cschar.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="exhook.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ffhook.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="files.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="giflib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="http.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="iehook.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="others.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="parser.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pipes.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="prio.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="startup.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="transfer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="client.def">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="avi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="command.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="conf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="files.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="giflib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="http.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="parser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pipes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="prio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ssl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="transfer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

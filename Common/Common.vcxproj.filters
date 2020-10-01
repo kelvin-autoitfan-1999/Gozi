@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="comsup.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="crtsup.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cschar.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dllntfy.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="files.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="globals.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="guid.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hook.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ini.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="int128.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lsasup.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pesup.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="priv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="proc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pssup.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="reg.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scrshot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="str.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="string.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="xml.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="comsup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="crtsup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cschar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cshash.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dbg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dllntfy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="files.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="globals.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="guid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hook.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ini.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="int128.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="joiner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="listsup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="logfile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lsasup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="macros.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="memalloc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pesup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="plugin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="priv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="proc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pssup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="reg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="scrshot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="str.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="string.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="xml.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="x64stubs.s">
+      <Filter>Source Files</Filter>
+    </MASM>
+  </ItemGroup>
+</Project>

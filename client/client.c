@@ -180,8 +180,50 @@ LONG _cdecl main(VOID)
 }
 
 // Required to link with ntdll.lib
-ULONG  __security_cookie;
-
+UINT_PTR __security_cookie;
+typedef struct {
+	DWORD      Size;
+	DWORD      TimeDateStamp;
+	WORD       MajorVersion;
+	WORD       MinorVersion;
+	DWORD      GlobalFlagsClear;
+	DWORD      GlobalFlagsSet;
+	DWORD      CriticalSectionDefaultTimeout;
+	ULONGLONG  DeCommitFreeBlockThreshold;
+	ULONGLONG  DeCommitTotalFreeThreshold;
+	ULONGLONG  LockPrefixTable;
+	ULONGLONG  MaximumAllocationSize;
+	ULONGLONG  VirtualMemoryThreshold;
+	ULONGLONG  ProcessAffinityMask;
+	DWORD      ProcessHeapFlags;
+	WORD       CSDVersion;
+	WORD       Reserved1;
+	ULONGLONG  EditList;
+	ULONGLONG  SecurityCookie;
+	ULONGLONG  SEHandlerTable;
+	ULONGLONG  SEHandlerCount;
+} IMAGE_LOAD_CONFIG_DIRECTORY64_2;
+typedef IMAGE_LOAD_CONFIG_DIRECTORY64_2 IMAGE_LOAD_CONFIG_DIRECTORY_2;
+const IMAGE_LOAD_CONFIG_DIRECTORY_2  _load_config_used = {
+	sizeof(IMAGE_LOAD_CONFIG_DIRECTORY_2),
+	0,  // TimeDateStamp.
+	0,  // MajorVersion.
+	0,  // MinorVersion.
+	0,  // GlobalFlagsClear.
+	0,  // GlobalFlagsSet.
+	0,  // CriticalSectionDefaultTimeout.
+	0,  // DeCommitFreeBlockThreshold.
+	2 * 1024 * 1024,  // DeCommitTotalFreeThreshold.
+	0,  // LockPrefixTable.
+	0,  // MaximumAllocationSize.
+	0,  // VirtualMemoryThreshold.
+	0,  // ProcessHeapFlags.
+	0,  // ProcessAffinityMask.
+	0,  // CSDVersion.
+	0,  // Reserved1.
+	0 , // EditList.
+	(ULONGLONG)&__security_cookie,
+};
 
 //
 //	Windows defined Process startup notification callback routine

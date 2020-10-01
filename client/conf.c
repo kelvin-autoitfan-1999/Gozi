@@ -68,7 +68,7 @@ ULONG			g_BcTimeout				= BcRequestTime;
  #ifdef _USE_BUILDER
 	PCHAR			g_pPublicKey		= NULL;
  #else
-	#include "..\public.key.txt"
+	#include "..\public.key.c"
 	PCHAR			g_pPublicKey		= (PCHAR)&g_PublicKey;
  #endif
 #endif	// _CHECK_DIGITAL_SIGNATURE
