@@ -9,7 +9,7 @@
 //	This module implemets some AV detect algos.
 
 #include "common\common.h"
-#include <Setupapi.h>
+#include <SetupApi.h>
 #include <aclapi.h>
 #include "common\enumdisk.h"
 #include "config.h"

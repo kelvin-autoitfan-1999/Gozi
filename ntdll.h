@@ -4477,12 +4477,12 @@ typedef struct _SCOPE_RECORD
     ULONG HandlerAddress;
     ULONG JumpTarget;
  } SCOPE_RECORD, *PSCOPE_RECORD;
-
+/*
  typedef struct _SCOPE_TABLE {
      ULONG Count;
 	 SCOPE_RECORD ScopeRecord[1];
  } SCOPE_TABLE, *PSCOPE_TABLE;
-
+ */
 typedef struct _EXCEPTION_DATA
 {
 	union {

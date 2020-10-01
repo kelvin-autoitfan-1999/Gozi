@@ -490,7 +490,7 @@ BOOL EncryptStringsSection(
 		if (!(pSection = (PIMAGE_SECTION_HEADER)PeSupFindSectionByName(pFileData, &SecName)))
 		{
 			DbgPrint("Unable to find the specified PE section.\n");
-			cout << "Unable to find the specifid PE section within the specified file." << endl;
+			cout << "Unable to find the specified PE section within the specified file." << endl;
 			break;
 		}
 

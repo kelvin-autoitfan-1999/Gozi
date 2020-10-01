@@ -1,8 +1,6 @@
-del %2\client_p.dll
-del %2\Client.bin
+del "%2client_p.dll" "%2Client.bin" >NUL 2>NUL
+"%2rsakey.exe" -c "%2client.dll"
 
-call %1\encrypts.bat %1 %2 client.dll
-
-cd %1\cryptor
-mpack %2\client.dll %2\client_p.dll
-%1\appack.exe c %2\client_p.dll %2\Client.bin
+REM cd "%1cryptor"
+REM mpack "%2client.dll" "%2client_p.dll"
+REM "%1appack.exe" c "%2client_p.dll" "%2Client.bin"
